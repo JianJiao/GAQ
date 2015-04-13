@@ -18,12 +18,13 @@ static char THIS_FILE[]=__FILE__;
 
 CGAQueen::CGAQueen(int nPopulation,int nIteration,float Mutation,int iChBoard)
 {
-	Clear();
-	srand( (unsigned)time( NULL ) );
 	Population=nPopulation;
 	Iteration=nIteration;
 	MutationRate=Mutation;
 	ChessBoradLenght=iChBoard;
+	Clear();
+	srand( (unsigned)time( NULL ) );
+
 	
 }
 
