@@ -29,7 +29,7 @@ public:
 	int CrossOverMatrix[30][1000];// to keep cross over matrix for relative parents
 	int Population;
 	int Iteration;
-	float MutationRate ;
+	float MutationRate;
 	int ChessBoradLenght;
 	
 
